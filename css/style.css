@@ -1014,3 +1014,74 @@
 		text-decoration: none;
 		color: rgba(255,255,255,.6);
 	}			
+
+/*****************/
+/* Natacha's CSS */
+/*****************/
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Black.eot');
+    src: url('Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Black.woff2') format('woff2'),
+        url('Gilroy-Black.woff') format('woff'),
+        url('Gilroy-Black.ttf') format('truetype'),
+        url('Gilroy-Black.svg#Gilroy-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Medium.eot');
+    src: url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Medium.woff2') format('woff2'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype'),
+        url('Gilroy-Medium.svg#Gilroy-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+body,input,textarea,select
+	{
+		font-family: 'Gilroy', sans-serif;
+		font-size: 13pt;
+		font-weight: 300;
+		line-height: 1.75em;
+		color: #393939;
+}
+
+#titleBar {
+    background: #fff!important;
+}
+
+#titleBar .toggle{
+    right:0!important;
+    left: 100px;
+}
+
+#titleBar .toggle:after{
+    background: none!important;
+    background-color: #000!important;
+    -webkit-mask-image: url(images/toggle.svg)!important;
+    mask-image: url(images/toggle.svg)!important;
+    opacity: 1!important;
+    text-align: right;
+}
+
+a.button{
+    background-color:#fa280a;
+    border-radius: 0;
+    transition: 0s;
+    text-decoration: none;
+}
+
+a.button:hover{
+    background-color: #cd2319;
+}
+
+#header-wrapper {
+    background: #333 url(../images/banner_1.jpg) no-repeat center;
+}
