@@ -1014,3 +1014,273 @@
 		text-decoration: none;
 		color: rgba(255,255,255,.6);
 	}			
+
+/*****************/
+/* Natacha's CSS */
+/*****************/
+
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url('Gilroy-Black.eot');
+    src: url('Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Black.woff2') format('woff2'),
+        url('Gilroy-Black.woff') format('woff'),
+        url('Gilroy-Black.ttf') format('truetype'),
+        url('Gilroy-Black.svg#Gilroy-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('Gilroy-Medium.eot');
+    src: url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy-Medium.woff2') format('woff2'),
+        url('Gilroy-Medium.woff') format('woff'),
+        url('Gilroy-Medium.ttf') format('truetype'),
+        url('Gilroy-Medium.svg#Gilroy-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+/*General*/
+
+body
+	{
+		font-family: 'Gilroy-Medium', sans-serif;
+		font-size: 13pt;
+		line-height: 1.75em;
+		color: #000;
+        background: #fff;
+}
+
+
+a.button{
+    border: 2px solid #0091fa;
+    padding: 15px 20px;
+    color: #0091fa;
+    border-radius: 0;
+    transition: 0s;
+    font-family: "Gilroy-Medium",Arial,sans-serif;
+    font-size: 20px;
+    text-transform: none;
+    text-decoration: none;
+    white-space: normal;
+    margin-top: 4%;
+    background: #fff;
+    max-width: 300px;
+}
+
+a.button:hover{
+    background-color: #0091fa;
+    color:#fff;
+}
+
+a.button.medium{
+    border:none;
+    background-color:#fa280a;
+    color:#fff;
+    max-width: 300px;
+
+}
+
+a.button.medium:hover{
+    background-color: #cd2319;
+}
+
+/*Header*/
+#header-wrapper {
+    background: url(../images/banner_1.jpg) no-repeat top;
+    background-size: cover;
+}
+
+#header-wrapper .logo{
+    background: #fff;
+    padding: 1em 2em;
+    border-bottom: 2px solid #b4b4b9;
+}
+
+#header-wrapper .logo img{
+    max-width: 250px;
+}
+
+#banner {
+    padding: 3em 0em 3em 0em;
+}
+
+#banner .container{
+    text-align: left;
+    color:#393939;
+}
+
+#banner header{
+    margin-bottom: 0;
+    width: 60%;
+}
+
+#banner header h2{
+    font-family: "Gilroy-Black",Arial,sans-serif;
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    width: 70%;
+    color:#fff;
+}
+
+#banner span.byline{
+    font-family: "Gilroy-Black",Arial,sans-serif;
+    text-transform: none;
+    color:#fff;
+    padding-top: 0!important;
+}
+
+#banner a{
+    margin-top: 20px;
+}
+
+/*Extra*/
+#extra {
+    background: #fff;
+}
+
+#extra span {
+    font-family: "Gilroy-Black",Arial,sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: #0091fa !important;
+}
+
+#extra header{
+    margin-bottom: 0;
+}
+
+#extra header h2{
+    font-family: "Gilroy-Black",Arial,sans-serif;
+    color:#0091fa;
+    letter-spacing: -1px;
+    font-weight: 900;
+    text-transform: none;
+    border-bottom: 4px solid #0091fa;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#extra .\33 u{
+    width: 33%;
+    text-align: left;
+}
+
+#extra p{
+    margin-top:10px; 
+    font-size: 18px;
+    font-family: "Gilroy-Medium",Arial,sans-serif;
+    line-height: 1.5;
+}
+
+/*Featured*/
+#featured{
+    text-align: left;
+    background: #0091fa url(../images/banner_2.jpg) no-repeat top;
+}
+
+#featured header{
+    color:#000;
+}
+
+#featured header h2{
+    color:#0091fa;
+    font-weight: 900;
+    font-size: 60px;
+    width: 60%;
+    line-height: 66px;
+}
+
+#featured header span{
+    font-size: 28px;
+}
+
+#featured .row{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#featured .row section{
+    background: #fff;
+    text-align: left;
+    color: #000;
+    padding: 30px;
+    -webkit-box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0px 10px rgba(0,0,0,0.1);
+}
+
+#featured .row:after{
+    content: none;
+}
+
+#featured .row h3{
+    font-family: "Gilroy-Black",Arial,sans-serif !important;
+    font-size: 20px;
+    line-height: 1.11;
+    width: 100%;
+    color: #0091fa !important;
+    border-bottom: 2px solid #0091fa;
+    padding-bottom: 10px;
+}
+
+#featured .row p{
+    margin: 1em auto;
+    font-size: 18px;
+}
+
+#featured span{
+    text-transform: none;
+}
+
+.\36 u {
+    width: 30%;
+}
+
+/*Rewards*/
+
+#table header h2{
+    font-weight: 900;
+    font-size: 4em;
+    width: 60%;
+    line-height: 66px;
+}
+
+#table span.byline{
+    font-family: "Gilroy-Black",Arial,sans-serif;
+    text-transform: none;
+}
+
+#table .rewards-table{
+    width: 100%!important;
+
+}
+
+#table .rewards-table tr:nth-child(odd){
+    background: #fff;
+}
+
+#table .rewards-table tbody{
+    font-size: 18px;
+}
+
+#table .rewards-table tbody tr:first-child{
+    font-weight: 900;
+    font-size: 22px;
+    color:#0091fa;
+}
+
+#table .rewards-table th{
+   border-bottom: 3px solid #0091fa; 
+}
+
+#table div.responsive_table{
+    overflow-x: auto;
+}

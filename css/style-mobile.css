@@ -226,3 +226,51 @@
 {
 	padding: 4em 0em 3em 0em;
 }
+
+/*****************/
+/* Natacha's CSS */
+/*****************/
+
+body{
+    padding-top: 0;
+}
+
+#titleBar {
+    display: none;
+}
+
+.button{
+    width: auto!important;
+}
+
+/*Banner*/
+
+#header-wrapper .logo{
+    text-align: center;
+}
+
+/*Featured*/
+
+#featured .row{
+    justify-content: center;
+}
+
+#featured .row section {
+        padding: 30px!important;
+}
+
+#featured .row section img{
+    max-width: 100%;
+}
+
+/*Table*/
+#table .rewards-table tbody{
+    text-align: left;
+}
+#table .rewards-table th  {
+    padding: 20px 0;
+}
+
+#table .rewards-table tr td{
+    padding: 10px 0;
+}
