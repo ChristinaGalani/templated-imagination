@@ -1,0 +1,97 @@
+/*
+	Imagination by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+	body
+	{
+		background: #fff !important;
+	}
+
+	body,input,textarea,select
+	{
+		font-size: 11pt;
+	}
+
+	/* Add your general CSS uder this line  */
+
+
+
+	/* Add your general CSS above this line */
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding: 7em 0em 7em 0em;
+	}
+	
+	#banner header h2
+	{
+		font-size: 4em;
+	}
+	
+	#banner header .byline
+	{
+		padding-top: 1em;
+		font-size: 1.8em;
+		font-weight: 500;
+	}
+
+/*********************************************************************************/
+/* Extra                                                                         */
+/*********************************************************************************/
+
+	#extra
+	{
+		padding: 7em 0em;
+	}
+	
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+	
+	#featured
+	{
+		padding: 6em 0em;
+	}
+
+/*********************************************************************************/
+/* Rewards Table                                                                 */
+/*********************************************************************************/
+	
+	#table{
+		padding: 6em 0em;
+	}
+
+	.rewards-table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 95%;
+		margin: 20px auto;
+		background: #ebebeb;
+		border-radius: 3px;
+	  }
+	  .rewards-table th, .rewards-table td {
+		padding: 10px 20px;
+		text-align: left;
+	  }
+	  .rewards-table th {
+		border-bottom: 3px solid #636363;
+	  }
+	  .rewards-table th:nth-child(2), .rewards-table td:nth-child(2) {
+		text-align: right;
+	  }
+	  .rewards-table tr:nth-child(odd) {
+		background-color: #ebebeb;
+	  }
+	  .rewards-table tr:nth-child(even) {
+		background-color: #fff;
+	  }
+	  
